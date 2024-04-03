@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"><span>Ha</span>na</a>
+    <nav class="navbar">
+        <a href="#" class="active">portfolio</a>
+        <a href="#">education</a>
+        <a href="#">projects</a>
+    </nav>
+    <a href="#" class="contact">Contact Me</a>
+</header>
+<section class="home">
+    <div class="home-content">
+        <h3>Hi</h3>
+        <h1>I'm <span> HANA<br></span>a Software Engineering student</h1>
+        <p>>As a software engineering student, I am passionate about technology and its potential to drive innovation.
+             I have foundation in programming languages such as Java, C++, and Python,html,css, javaScript and I am constantly seeking to expand my skills and knowledge in the field.
+        </p>
+        <div class="btn-box">
+            <button class="btn-1">Hire Me</button>
+            <button clas="btn-2">Experience</button>
+        </div>
+    </div>
+    <div class="img-box">
+        <img src="c:\Users\user\Desktop\html\image1.jpg">
+    </div>
+</section>
+<section class="about">
+    <div class="about-img">
+        <img src="c:\Users\user\Desktop\html\image1.jpg" alt="photo">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>I want to be<span>Fullstack developer</span></h3>
+        <p>My goal is to become a versatile full stack developer who is proficient in both front-end and back-end technologies.
+        I am actively seeking opportunities to expand my skills in areas such as web development, database management, and user interface design. 
+        I am eager to learn new technologies and tools that will help me build robust and user-friendly applications.
+        I am excited about the prospect of becoming a full stack developer and contributing to the creation of cutting-edge software solutions. 
+        I am committed to continuous learning and growth in order to achieve my goal of becoming a well-rounded and proficient developer. 
+        I am confident that my dedication, passion, and technical skills will enable me to excel in the field of software engineering as a full stack developer.</p>
+        <a href="#" class="btn-2">Experience</a>
+    </div>
+</section>
+
+
+<section class="contact-form">
+    <h2 class="contact-me">contact<span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="send Message" class="btn-1">
+
+    </form>
+</section>
+
+<footer class="footer">
+
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">About Me</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+    </ul>
+
+    <p class="copyright"> 2023 HANA | All Rights Reserved </p>
+</footer>
+</body>
+</html>
